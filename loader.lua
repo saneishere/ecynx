@@ -84,7 +84,7 @@ local function loadEcynx()
     if not success then
         -- Try to load from URL if local file fails
         success, result = pcall(function()
-            return loadstring(game:HttpGet("https://raw.githubusercontent.com/sane/ecynx/main/ui_design.lua"))()
+            return loadstring(game:HttpGet("https://raw.githubusercontent.com/saneishere/ecynx/refs/heads/main/ui_design.lua"))()
         end)
         
         if not success then
@@ -94,7 +94,7 @@ local function loadEcynx()
         end
         
         -- Save UI Library for future use
-        writefile("Ecynx/ui_design.lua", game:HttpGet("https://raw.githubusercontent.com/sane/ecynx/main/ui_design.lua"))
+        writefile("Ecynx/ui_design.lua", game:HttpGet("https://raw.githubusercontent.com/saneishere/ecynx/refs/heads/main/ui_design.lua"))
     end
     
     UILibrary = result
