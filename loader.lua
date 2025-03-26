@@ -104,11 +104,11 @@ local function loadEcynx()
     
     -- Module URLs
     local ModuleURLs = {
-        Lock = "https://raw.githubusercontent.com/sane/ecynx/main/lock.lua",
-        Triggerbot = "https://raw.githubusercontent.com/sane/ecynx/main/triggerbot.lua",
+        Lock = "https://raw.githubusercontent.com/saneishere/ecynx/refs/heads/main/lock.lua",
+        Triggerbot = "https://raw.githubusercontent.com/saneishere/ecynx/refs/heads/main/triggerbot.lua",
         ESP = "https://raw.githubusercontent.com/saneishere/ecynx/refs/heads/main/esp.lua",
-        SilentAim = "https://raw.githubusercontent.com/sane/ecynx/main/silentaim.lua",
-        Misc = "https://raw.githubusercontent.com/sane/ecynx/main/misc.lua"
+        SilentAim = "https://raw.githubusercontent.com/saneishere/ecynx/refs/heads/main/silentaim.lua",
+        Misc = "https://raw.githubusercontent.com/saneishere/ecynx/refs/heads/main/misc.lua"
     }
     
     -- Load each module
