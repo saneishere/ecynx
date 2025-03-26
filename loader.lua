@@ -106,7 +106,7 @@ local function loadEcynx()
     local ModuleURLs = {
         Lock = "https://raw.githubusercontent.com/sane/ecynx/main/lock.lua",
         Triggerbot = "https://raw.githubusercontent.com/sane/ecynx/main/triggerbot.lua",
-        ESP = "https://raw.githubusercontent.com/sane/ecynx/main/esp.lua",
+        ESP = "https://raw.githubusercontent.com/saneishere/ecynx/refs/heads/main/esp.lua",
         SilentAim = "https://raw.githubusercontent.com/sane/ecynx/main/silentaim.lua",
         Misc = "https://raw.githubusercontent.com/sane/ecynx/main/misc.lua"
     }
